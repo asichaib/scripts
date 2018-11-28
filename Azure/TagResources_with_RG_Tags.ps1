@@ -1,5 +1,5 @@
 ﻿Login-AzureRmAccount
-Select-AzureRmSubscription -SubscriptionId "f386634b-3dfd-47f8-af84-7fe9d01952f4"
+Select-AzureRmSubscription -SubscriptionId ""
 $groups = Get-AzureRmResourceGroup
 Write-Output $groups
 foreach ($g in $groups)
